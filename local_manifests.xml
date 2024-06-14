@@ -14,7 +14,7 @@
     <project name="device_garnet" path="device/xiaomi/garnet" remote="wob" revision="derp" />
 
     <!-- Vendor -->
-    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="derp" />
+    <project name="vendor_garnet" path="vendor/xiaomi/garnet" remote="wob" revision="derp" />
 
     <!-- Kernel -->
     <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="derp" />
