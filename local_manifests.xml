@@ -7,10 +7,11 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/afdulfauzan" name="zan" />
+    <remote fetch="https://github.com/moewob" name="wob" />
 
 
     <!-- Device -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="zan" revision="derp" />
+    <project name="device_garnet" path="device/xiaomi/garnet" remote="wob" revision="derp" />
 
     <!-- Vendor -->
     <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="derp" />
