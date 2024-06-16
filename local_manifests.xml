@@ -10,6 +10,7 @@
     <remote fetch="https://github.com/moewob" name="wob" />
 
     <!-- Removed projects -->
+    <remove-project name="vendor_derp" />
     <remove-project name="packages_apps_Updater" />
 
     <!-- Device -->
@@ -25,5 +26,6 @@
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="zan" revision="lineage-21" />
     <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
     <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
-    <project name="packages_apps_Updater" path="packages/apps/Updater" remote="wob" revision="14-next" clone-depth="1" />
+    <project name="vendor_derp" path="vendor/derp" remote="wob" revision="14" />
+    <project name="packages_apps_Updater" path="packages/apps/Updater" remote="wob" revision="14-next" />
 </manifest>
